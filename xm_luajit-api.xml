@@ -1,0 +1,17 @@
+<declarations>
+ <module>xm_luajit</module>
+ <include>expr.h</include>
+ <include>module.h</include>
+
+ <procedure>
+   <name>exec</name>
+   <type>public</type>
+   <cb>nx_expr_proc__exec</cb>
+   <description>
+     <en>
+      
+     </en>
+   </description>
+ </procedure>
+ 
+</declarations>
